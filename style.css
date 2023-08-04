@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  line-height: 1.0;
 }
 
 header {
@@ -25,6 +26,9 @@ width: 500px;
 nav {
   background-color: #ae5757;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -76,9 +80,18 @@ margin-right: 40px;
   width: 100%;
 }
 
-.flex-item:first-child {
+.flex-item{
   min-height: 150px;
-  flex-basis: 200%;
+  flex:1 1 50%;
+ 
+}
+.flex-item div {
+  background-color: var(--secondary);
+  padding: 8px 10px;
+}
+
+.flex-item h3 {
+  font-size: 1.6rem;
 }
 /* #work img {
   max-width: 100%;
@@ -98,7 +111,40 @@ margin-right: 40px;
   width:100%;
 }
 
-.sub-images{
-  width:100%;
-  
+.surf-report {
+  background-image: url("../images/02-portfolio-4.jpg");
 }
+.led-wall {
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+.calculator {
+  background-image: url("../images/02-portfolio-2.jpg");
+  width: 200%;
+}
+.pastel-puzzles {
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+.run-buddy {
+  background-image: url("../images/02-run-buddy.jpg");
+}
+/* feature first portfolio item */
+.flex-item:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.flex-item:hover {
+background-color: white
+}
+
+.flex-item div {
+background-color: white;
+padding: 6px 8px;
+}
+
+.flex-item h3 {
+font-size: 3.6rem;
+}
+
+
+
