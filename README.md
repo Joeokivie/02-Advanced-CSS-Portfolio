@@ -1,7 +1,6 @@
-# 02-Advanced-CSS-Portfolio
+# 02 Advanced CSS: Portfolio
 
 ## Your Task
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
 
 A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
 
@@ -14,6 +13,8 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
+
+
 ## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
@@ -32,10 +33,18 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+```
 
 
 ## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
-![image](https://github.com/Joeokivie/02-Advanced-CSS-Portfolio/assets/138530272/a2c41169-c9dd-4ba0-8efd-c0f73ae17c85)
+![image](https://github.com/Joeokivie/02-Advanced-CSS-Portfolio/assets/138530272/cc5bc0d0-548e-4cbd-9407-a0d4831a0533)
+
+## Landing page 
+
+[
+](https://joeokivie.github.io/02-Advanced-CSS-Portfolio/)https://joeokivie.github.io/02-Advanced-CSS-Portfolio/
+![image](https://github.com/Joeokivie/02-Advanced-CSS-Portfolio/assets/138530272/7e7b9d05-8492-4711-87f7-b1c3763a728f)
+
